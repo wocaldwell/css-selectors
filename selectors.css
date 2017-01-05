@@ -1,0 +1,86 @@
+/*************************************
+ HEADER
+*************************************/
+
+header {
+    border: 1px solid red;
+}
+
+/*************************************
+ NAV
+*************************************/
+
+nav li {
+    display: inline-block;
+    margin: 1%;
+}
+
+/*************************************
+ DISABLED CLASS
+*************************************/
+
+.disabled {
+    color: gray;
+}
+
+a .disabled {       /* Not working? */
+    color: purple;
+}
+
+/*************************************
+ ACTIVE CLASS
+*************************************/
+
+.active {
+    color: yellow;
+}
+
+/*************************************
+ TEXT COLORING
+*************************************/
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+/*************************************
+ SIBLING BACKGROUNDS
+*************************************/
+
+.red + h4 {
+    background-color: red;
+}
+
+.blue + h4 {
+    background-color: blue;
+}
+
+/*************************************
+ DIRECT CHILDREN
+*************************************/
+
+.grandparent > h4 {
+    border: 1px solid black;
+    border-radius: 25%;
+}
+
+/*************************************
+ PROMO CLASS
+*************************************/
+
+.promo {
+    font-weight: bold;
+    color: gray;
+}
+
+/*************************************
+ PROMO CLASS
+*************************************/
+
+footer input {
+    line-height: 25px;
+}
